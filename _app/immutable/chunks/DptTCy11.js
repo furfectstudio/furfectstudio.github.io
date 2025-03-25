@@ -1,0 +1,1 @@
+import{b as r,E as c,l as f,n as i,x as p,h as E,e as L}from"./DQv6Lxea.js";function O(e,t,...o){var n=e,s=i,a;r(()=>{s!==(s=t())&&(a&&(p(a),a=null),a=f(()=>s(n,...o)))},c),E&&(n=L)}const _={ko:"ko-KR",en:"en-US",ja:"ja-JP",zh:"zh-CN"},h=Object.keys(_),C=h[0];export{C as D,h as S,O as s};
