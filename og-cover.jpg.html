@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko-KR">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicons/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		
+		<link href="./_app/immutable/assets/0.B7JZFuku.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CvkAst4D.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CFV323f9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/w-GyHRAS.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DxabnCy7.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B11TOLto.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BLrI30t_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C1FmrZbK.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BgDAHWf3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Cmk7LoID.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Czw38eqJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Ck1KRdS0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Dd3IPcNf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DvdAMHKU.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.DhK0jujE.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/MpZASzkv.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/2MQ6NBAh.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CGkQg3Ln.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DR_nSKTd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Dgf0B9PX.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.BTlJG2lU.js"><!--[--><link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png"> <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png"> <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png"> <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png"> <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png"> <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png"> <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png"> <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png"> <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png"> <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png"> <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png"> <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png"> <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png"> <link rel="manifest" href="/favicons/manifest.json"> <meta name="msapplication-TileColor" content="#ffffff"> <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png"> <meta name="theme-color" content="#ffffff"> <meta property="og:type" content="website"> <meta property="og:url" content="https://furfectstudio.com"> <meta property="og:title" content="Content Title"> <meta property="og:image" content="/og-cover.jpg"> <meta property="og:description" content="임시 설명 입니다."> <meta property="og:site_name" content="Furfect! Studio"> <meta property="og:locale" content="ko_KR"> <meta property="og:image:width" content="1200"> <meta property="og:image:height" content="630"> <meta name="twitter:card" content="image"> <meta name="twitter:title" content="Furfect! Studio"> <meta name="twitter:description" content="임시 설명 입니다."> <meta name="twitter:image" content="/og-cover.jpg"><!--]--><title>Furfect! Sudio</title>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<script>
+			(function (l) {
+				// 경로에 언어 코드가 없으면 브라우저 언어에 맞춰 리디렉션
+				var language = window.navigator.language.slice(0, 2); // 'ko', 'ja', 'en' 등
+				var supportedLanguages = ['ko', 'ja', 'en', 'zh']; // 지원하는 언어 목록
+				var pathSegments = l.pathname.split('/'); // 경로 파싱
+
+				if (!pathSegments[1]) {
+					// 언어가 없다면, 브라우저 언어에 맞춰 리디렉션 (기본값 'ko')
+					window.location.replace(
+						'/' + (supportedLanguages.indexOf(language) !== -1 ? language : 'ko')
+					);
+				} else if (supportedLanguages.indexOf(pathSegments[1]) === -1) {
+					// 언어가 경로에 없으면 브라우저 언어로 리디렉션
+					window.location.replace('/' + language + l.pathname);
+				}
+
+				// URL을 적절하게 처리하여 쿼리 파라미터 복원
+				if (l.search && l.search[1] === '/') {
+					var decoded = l.search
+						.slice(1)
+						.split('&')
+						.map(function (s) {
+							return s.replace(/~and~/g, '&');
+						})
+						.join('?');
+					window.history.replaceState(null, '', l.pathname.slice(0, -1) + decoded + l.hash);
+				}
+			})(window.location);
+		</script>
+
+		<div style="display: contents"><!--[--><!--[--><!----><!--[!--><!--]--><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_cbfkd3 = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CvkAst4D.js"),
+						import("./_app/immutable/entry/app.BLrI30t_.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 4],
+							data: [{"type":"data","data":null,"uses":{}},null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
